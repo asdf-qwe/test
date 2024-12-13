@@ -25,7 +25,7 @@ public class Bank {
         int i;
         boolean flag = true;
         for (i = 0; i < c.length; i++) {
-            if (id.equals(c[i].id)) {
+            if (id.equals(c[i].Id)) {
                 bw.write("이미 존재하는 이름입니다.");
                 bw.flush();
                 flag = false;
